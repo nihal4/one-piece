@@ -1,0 +1,43 @@
+.carousel {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  &-1 {
+    display: flex;
+    align-items: center;
+    &-img {
+      width: 119px;
+      border-radius: 100%;
+    }
+  }
+  &-2{
+    //width: 380px;
+    &-header{
+        font-size:1.5rem;
+        text-align: center;
+    }
+    &-p{
+        text-align: center;
+        font-weight: 600;
+    }
+  }
+}
+.poster{
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px #000;
+}
+@media (max-width:768px){
+    .box-2-p{
+        font-size: 12px;
+    }
+    .poster{
+        width: 200px;
+    }
+}
