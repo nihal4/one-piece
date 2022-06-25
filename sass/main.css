@@ -12,6 +12,12 @@ body {
      object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  .video {
+    display: none;
+  }
+}
+
 .container-md {
   font-family: 'Josefin Sans', sans-serif;
   z-index: 100;
