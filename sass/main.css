@@ -239,6 +239,9 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .s2-header {
+    font-size: 1.5rem;
+  }
 }
 
 .s3 {
@@ -307,6 +310,41 @@ body {
 @media (max-width: 425px) {
   .clip {
     width: 100%;
+  }
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #ffffff81;
+  font-family: 'Josefin Sans', sans-serif;
+  min-height: 10vh;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-test {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .a {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
