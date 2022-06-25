@@ -1,0 +1,42 @@
+.s3{
+    background-color: #ffffff81;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+
+}
+.clip{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    &-item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    &-list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+}
+@media(max-width:768px){
+    .clip-list{
+        flex-direction: column;
+    }
+    .clip-item{
+        flex-direction: column;
+    }
+}
+@media(max-width:425px){
+    .clip{
+        width: 100%;
+
+    }
+}
